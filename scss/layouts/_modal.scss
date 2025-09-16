@@ -12,6 +12,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px 0;
   transition: opacity 0.3s, visibility 0.3s;
+  z-index: 9999;
 
   &.is-hidden {
     opacity: 0;
@@ -30,6 +31,7 @@
   padding: 48px;
   background-color: var(--color-primary-light);
   border-radius: 32px;
+  z-index: 10000;
 
   @media screen and (min-width: $bp-tablet) {
     padding: 128px;
@@ -41,7 +43,9 @@
     right: 40px;
     background-color: transparent;
     border: none;
+    fill: var(--color-primary-dark);
     cursor: pointer;
+    z-index: 10000;
   }
 
   &__form-field {
@@ -50,6 +54,13 @@
 
   &__button {
     margin: 0 auto 24px;
+    color: var(--color-primary-light);
+    background-color: var(--color-brand-normal);
+
+    &:hover {
+      color: var(--color-primary-dark);
+      background-color: transparent;
+    }
   }
 
   &__decor {

@@ -14,6 +14,7 @@ const swiper = new Swiper(".swiper-container", {
     el: ".pagination",
     bulletClass: "pagination__button",
     bulletActiveClass: "pagination__button--active",
+    clickable: true,
   },
   navigation: {
     nextEl: ".carousel-button.next",

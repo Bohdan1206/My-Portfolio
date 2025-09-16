@@ -46,5 +46,12 @@
   &__button {
     display: block;
     margin: 0 auto 16px;
+    color: var(--color-primary-light);
+    background: var(--color-brand-normal);
+  }
+
+  &__button:hover {
+    color: var(--color-primary-dark);
+    background-color: transparent;
   }
 }
