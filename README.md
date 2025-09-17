@@ -17,5 +17,5 @@ This is a frontend project showcasing a responsive mobile menu. The goal is to d
 - Full-screen menu that adapts to different devices  
 
 **Live Demo & Code:**  
-- Live demo: [Insert GitHub Pages link here]  
+- Live demo: https://bohdan1206.github.io/My-Portfolio 
 - Source code: https://github.com/Bohdan1206/My-Portfolio
