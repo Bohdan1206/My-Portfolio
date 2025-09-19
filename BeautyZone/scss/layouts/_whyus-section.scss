@@ -11,7 +11,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(../../images/background-middle-mobile.png);
+    background-image: url(../images/background-middle-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -20,7 +20,7 @@
     transform: translateY(-40px);
 
     @media screen and (min-width: $bp-tablet) {
-      background-image: url(../../images/background-middle.png);
+      background-image: url(../images/background-middle.png);
       background-repeat: no-repeat;
       background-size: contain;
       transform: translateY(20px);
@@ -28,7 +28,7 @@
 
     @media screen and (min-width: $bp-desktop) {
       height: calc(100% + 300px);
-      background-image: url(../../images/background-middle.png);
+      background-image: url(../images/background-middle.png);
       background-repeat: no-repeat;
       background-size: cover;
     }
