@@ -1,6 +1,20 @@
+Responsive mobile menu with JavaScript and SCSS, smooth scrolling, interactive UI for frontend portfolio.
 
-Welcome to my portfolio repository! 🚀  
-Here I collect my frontend projects in separate folders.
+This is a frontend project showcasing a responsive mobile menu. The goal is to demonstrate skills in adaptive web design, HTML, CSS/SCSS, and JavaScript, with interactive UI elements.
+
+Technologies Used:
+
+HTML5, CSS3, SCSS
+JavaScript
+Flexbox
+Responsive design for mobile and desktop
+Smooth animations and interactive menu functionality
+Features:
+
+Toggle mobile menu with a burger button
+Disable page scroll when the menu is open
+Smooth scrolling to page sections when menu links are clicked
+Full-screen menu that adapts to different devices
 
 ## Projects
 
