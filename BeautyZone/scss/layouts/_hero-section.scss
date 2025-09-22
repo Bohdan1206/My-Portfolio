@@ -7,14 +7,14 @@
   margin: 0;
   width: 100%;
   height: 324px;
-  background-image: linear-gradient(
-      56.68deg,
-      #ffffff 20.92%,
-      rgba(255, 255, 255, 0.78) 44.46%,
-      rgba(255, 255, 255, 0.2) 58.9%,
-      rgba(255, 255, 255, 0) 72.45%
-    ),
-    url(../images/hero-background.png);
+  background: linear-gradient(
+    89.38deg,
+    #ffffff 30.62%,
+    rgba(255, 255, 255, 0.850898) 41.31%,
+    rgba(255, 255, 255, 0.193204) 58.65%,
+    rgba(255, 255, 255, 0) 72.78%
+  );
+  background-image: url(../images/hero-back.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,22 +27,24 @@
         rgba(255, 255, 255, 0.193204) 58.65%,
         rgba(255, 255, 255, 0) 72.78%
       ),
-      url(../images/hero-background.png), center;
+      url(../images/hero-back.png), center;
     height: 658px;
     background-size: cover;
   }
 
   &__title {
     padding-bottom: 32px;
-    margin: 0 auto;
+    margin: 0;
     font-weight: 700;
     font-size: 54px;
     line-height: 0.85;
+    color: var(--color-primary-blue);
 
     @media screen and (min-width: $bp-tablet) {
       padding-bottom: 40px;
       font-size: 140px;
       line-height: 0.8;
+      margin-left: -6px;
     }
   }
 
@@ -55,7 +57,6 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      margin-left: 110px;
       width: 530px;
       height: 410px;
     }

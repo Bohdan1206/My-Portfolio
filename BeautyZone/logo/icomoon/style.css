@@ -20,25 +20,17 @@ Single-colored icons can be modified like so:
 }
 
 .icon-atom-logo {
-  width: 0.9091796875em;
+  width: 0.90625em;
 }
 
 .icon-bottle-logo {
-  width: 0.9794921875em;
+  width: 0.96875em;
 }
 
 .icon-crown-logo {
-  width: 1.22265625em;
-}
-
-.icon-facebook-logo {
-  width: 0.5859375em;
+  width: 1.21875em;
 }
 
 .icon-main-logo {
-  width: 1.97265625em;
-}
-
-.icon-phone-logo {
-  width: 0.87109375em;
+  width: 1.96875em;
 }

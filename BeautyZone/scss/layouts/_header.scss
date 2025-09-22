@@ -75,7 +75,7 @@
 
     &:hover {
       transform: scale(1.1);
-      stroke: var(--color-primary-blue);
+      color: var(--color-primary-blue);
     }
   }
 
@@ -86,6 +86,7 @@
     background-color: transparent;
     border: none;
     fill: var(--color-primary-white);
+    cursor: pointer;
 
     @media screen and (min-width: $bp-tablet) {
       display: none;
