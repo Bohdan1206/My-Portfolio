@@ -1,0 +1,28 @@
+.main-section {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 400px;
+    align-items: center;
+    background-image: url(../../image/main-background.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+
+    & h1 {
+      line-height: 1.5;
+      font-size: 56px;
+    }
+
+    & p {
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@use "../utils/variables" as *;
+
+.goals-section {
+  &-container {
+    position: relative;
+    margin-top: 60px;
+    width: 800px;
+  }
+
+  &-container::after {
+    position: absolute;
+    content: "";
+    border: 0.5px solid var(--color-primary-dark);
+    width: calc(100% + 407px);
+    bottom: -40px;
+  }
+}
