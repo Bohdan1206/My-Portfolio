@@ -24,5 +24,5 @@ Full-screen menu that adapts to different devices
 - [BeautyZone](https://bohdan1206.github.io/My-Portfolio/BeautyZone/) 💆‍♀️  
   Landing page for a beauty salon with services and interactive UI.
 
-- [MyCV](https://bohdan1206.github.io/My-Portfolio/MyCV/) 📂
+- [MyCV](https://bohdan1206.github.io/My-Portfolio/MyCV/) 📂  
   Portfolio of personal projects with responsive layouts and modern frontend techniques.
