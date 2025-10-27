@@ -125,10 +125,13 @@ address {
 .header__menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__hat {
   display: flex;
+  align-items: center;
+  vertical-align: middle;
   gap: 60px;
 }
 
