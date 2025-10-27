@@ -26,3 +26,7 @@ Full-screen menu that adapts to different devices
 
 - [MyCV](https://bohdan1206.github.io/My-Portfolio/MyCV/) 📂  
   Portfolio of personal projects with responsive layouts and modern frontend techniques.
+
+- [Graphic-Designer-CV](./Graphic-Designer-CV)  🎨
+  Resume and portfolio website for Ivanna Voitseshko — Graphic Designer specializing in branding, logos, and visual communication.
+  
