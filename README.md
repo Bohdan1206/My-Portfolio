@@ -32,7 +32,7 @@ The goal of this portfolio is to present clean, responsive, and user-friendly in
 
 ## Projects
 
-- [TradeBlade(React + JS)] (https://bohdan1206.github.io/My-Portfolio/tradeBlade(React+JS)/) 📈
+- [TradeBlade(React + JS)](https://bohdan1206.github.io/My-Portfolio/tradeBlade(React+JS)/) 📈
   Responsive trading platform interface built with React, Vite, and CSS Modules. Features dynamic pricing logic, custom slider, mobile     and desktop layouts, FAQ accordion, and adaptive promo card behavior. Demonstrates practical use of components, hooks, and modular       styles.
 
 - [MyBakery](https://bohdan1206.github.io/My-Portfolio/MyBakery/) 🍞  
