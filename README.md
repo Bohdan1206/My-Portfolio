@@ -1,22 +1,39 @@
-Responsive mobile menu with JavaScript and SCSS, smooth scrolling, interactive UI for frontend portfolio.
+# Responsive mobile menu with JavaScript and SCSS, smooth scrolling, interactive UI for frontend portfolio.
 
-This is a frontend project showcasing a responsive mobile menu. The goal is to demonstrate skills in adaptive web design, HTML, CSS/SCSS, and JavaScript, with interactive UI elements.
+This portfolio showcases multiple frontend projects built using modern web technologies.  
+Originally focused on adaptive layouts, SCSS, and JavaScript, the portfolio now also includes projects built with **React**, demonstrating an expanded skill set in component-based architecture, state management, and dynamic UI rendering.
 
-Technologies Used:
+The goal of this portfolio is to present clean, responsive, and user-friendly interfaces across different technologies and approaches.
 
-HTML5, CSS3, SCSS
-JavaScript
-Flexbox
-Responsive design for mobile and desktop
-Smooth animations and interactive menu functionality
-Features:
+---
 
-Toggle mobile menu with a burger button
-Disable page scroll when the menu is open
-Smooth scrolling to page sections when menu links are clicked
-Full-screen menu that adapts to different devices
+## 🔧 Technologies Used
+
+- HTML5, CSS3, SCSS  
+- JavaScript (ES6+)
+- React + Vite (for the newest project)
+- Flexbox  
+- Responsive design for all screen sizes  
+- Smooth animations & interactive UI   
+- CSS Modules  
+
+---
+
+## ✨ Features
+
+- Toggle mobile menu via burger button  
+- Disable page scroll when the menu is open  
+- Smooth scrolling to anchored sections  
+- Full-screen responsive navigation  
+- Interactive UI elements and custom components  
+- Transition into React development with real project implementation  
+
+---
 
 ## Projects
+
+- [TradeBlade(React + JS)] (https://bohdan1206.github.io/My-Portfolio/tradeBlade(React+JS)/) 📈
+  Responsive trading platform interface built with React, Vite, and CSS Modules. Features dynamic pricing logic, custom slider, mobile     and desktop layouts, FAQ accordion, and adaptive promo card behavior. Demonstrates practical use of components, hooks, and modular       styles.
 
 - [MyBakery](https://bohdan1206.github.io/My-Portfolio/MyBakery/) 🍞  
   Adaptive website for a bakery with modern layout and responsive design.
@@ -28,5 +45,5 @@ Full-screen menu that adapts to different devices
   Portfolio of personal projects with responsive layouts and modern frontend techniques.
 
 - [Graphic-Designer-CV](https://bohdan1206.github.io/My-Portfolio/Graphic-Designer-CV/) 🎨
-  Resume and portfolio website for **Ivanna Voitseshko** — Graphic Designer specializing in branding, logos, and visual communication.
+  Resume and portfolio website for Ivanna Voitseshko — Graphic Designer specializing in branding, logos, and visual communication.
   
