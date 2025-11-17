@@ -4,14 +4,27 @@
   &-container {
     position: relative;
     margin-top: 60px;
-    width: 800px;
+  }
+
+  &-container p {
+    text-align: center;
   }
 
   &-container::after {
     position: absolute;
     content: "";
     border: 0.5px solid var(--color-primary-dark);
-    width: calc(100% + 407px);
+    width: 100%;
     bottom: -40px;
+  }
+
+  @media (min-width: $bp-tablet) {
+    &-container h2 {
+      text-align: left;
+    }
+
+    &-container p {
+      text-align: left;
+    }
   }
 }

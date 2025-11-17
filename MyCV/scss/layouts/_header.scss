@@ -1,7 +1,9 @@
+@use "../utils/variables" as *;
+
 .header {
   &-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 110px;
   }
@@ -11,8 +13,7 @@
   }
 
   &-list {
-    display: flex;
-    gap: 100px;
+    display: none;
   }
 
   &-link {
@@ -20,6 +21,17 @@
 
     &:hover {
       transform: scale(1.1);
+    }
+  }
+
+  @media (min-width: $bp-desktop) {
+    &-container {
+      justify-content: space-between;
+    }
+
+    &-list {
+      display: flex;
+      gap: 80px;
     }
   }
 }

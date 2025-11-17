@@ -1,3 +1,5 @@
+@use "./utils/variables" as *;
+
 *,
 ::before,
 ::after {
@@ -13,10 +15,15 @@ body {
   color: var(--color-primary-light);
   background-color: var(--color-primary-back);
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
   line-height: 2.2;
   margin: 0;
+
+  @media (min-width: $bp-tablet) {
+    font-size: 18px;
+    font-weight: 500;
+  }
 }
 
 h1,
