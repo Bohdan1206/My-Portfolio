@@ -31,6 +31,7 @@ The goal of this portfolio is to present clean, responsive, and user-friendly in
 ---
 
 ## Projects
+- [G&G Band](https://bohdan1206.github.io/My-Portfolio/GGBand/) 🤘🎸  A modern landing page for a fictional Ukrainian rock band “Грим та грім”. Includes upcoming concerts, band members, band history, and a contact section with a map. Fully responsive and built to demonstrate front-end development skills. Technologies: HTML5, CSS3, JavaScript
 
 - [tradeBladeReact](https://bohdan1206.github.io/My-Portfolio/tradeBladeReact/) 📈
   Responsive trading platform interface built with React, Vite, and CSS Modules. Features dynamic pricing logic, custom slider, mobile     and desktop layouts, FAQ accordion, and adaptive promo card behavior. Demonstrates practical use of components, hooks, and modular       styles.
