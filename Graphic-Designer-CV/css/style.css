@@ -511,7 +511,50 @@ address {
   border-radius: 8px;
 }
 
-.banner-section__series-third {
+.banner-section__series-third-1 {
+  position: relative;
+  display: flex;
+  gap: 56px;
+  margin-bottom: 100px;
+}
+
+.banner-section__series-third-1 img,
+.banner-section__series-third-2 img,
+.banner-section__series-four img {
+  border-radius: 8px;
+}
+
+.banner-section__series-third-1 > div:last-child {
+  position: absolute;
+  bottom: 0;
+  left: 53%;
+  width: 100%;
+}
+
+.banner-section__series-third-1 > div p:last-child {
+  background-color: black;
+  display: inline;
+  padding: 3px 4px;
+}
+
+.banner-section__series-third-2 {
+  display: flex;
+  gap: 56px;
+  margin-bottom: 100px;
+}
+
+.banner-section__series-four {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.banner-section__series-four p {
+  position: absolute;
+  top: 0;
+  width: 46%;
+}
+
+.banner-section__series-five {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -519,31 +562,31 @@ address {
   margin-bottom: 100px;
 }
 
-.banner-section__series-third-left {
+.banner-section__series-five-left {
   display: flex;
   flex-direction: column;
   flex: 1;
   gap: 80px;
 }
 
-.banner-section__series-third-left p {
+.banner-section__series-five-left p {
   margin: 0;
 }
 
-.banner-section__series-third-left img {
+.banner-section__series-five-left img {
   width: 100%;
   object-fit: cover;
   border-radius: 8px;
 }
 
-.banner-section__series-third-right {
+.banner-section__series-five-right {
   display: flex;
   flex-direction: column;
   flex: 1;
   gap: 50px;
 }
 
-.banner-section__series-third-right img {
+.banner-section__series-five-right img {
   width: 100%;
   object-fit: cover;
   border-radius: 8px;
