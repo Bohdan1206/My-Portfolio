@@ -1,5 +1,25 @@
-I’m a graphic designer experienced in crafting digital and print visuals — from advertising banners and Times Square billboards to websites, landing pages, and branded merchandise. I work with Photoshop, Illustrator, and Figma, integrating AI tools like MidJourney and Firefly to create bold, modern, and visually striking designs.
+# BOHDAN ROMANCHUK – FRONT-END DEVELOPER
 
-## Ivanna Portfolio
+HI! I AM BOHDAN, A FRONT-END DEVELOPER. I HAVE EXPERIENCE WITH:
 
-[Ivanna Graphic Designer CV](https://Ivanna0795.github.io/Ivanna-Portfolio/Ivanna-Graphic-Designer/) 🎨
+- HTML & CSS
+- BASIC JAVASCRIPT
+- STARTING TO LEARN REACT
+- RESPONSIVE DESIGN PRINCIPLES
+- MODERN LAYOUT TECHNIQUES (FLEXBOX, GRID)
+- CROSS-BROWSER COMPATIBILITY
+
+I ENJOY CREATING CLEAN, FUNCTIONAL, AND RESPONSIVE WEB PAGES.
+
+---
+
+## MY PROJECTS
+
+HERE ARE SOME OF MY PROJECTS HOSTED ON GITHUB PAGES:
+
+- [BeautyZone](https://bohdan1206.github.io/My-Portfolio/BeautyZone/)
+- [GGBand](https://bohdan1206.github.io/My-Portfolio/GGBand/)
+- [Graphic-Designer-CV](https://bohdan1206.github.io/My-Portfolio/Graphic-Designer-CV/)
+- [MyBakery](https://bohdan1206.github.io/My-Portfolio/MyBakery/)
+- [MyCV](https://bohdan1206.github.io/My-Portfolio/MyCV/)
+- [tradeBladeReact](https://bohdan1206.github.io/My-Portfolio/tradeBladeReact/)
