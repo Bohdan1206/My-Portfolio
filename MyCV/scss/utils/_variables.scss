@@ -1,8 +1,10 @@
 :root {
   --color-primary-dark: #5923af;
   --color-primary-light: #fff;
-  --color-primary-back: #180320;
-  --color-secondary-dark: #452b6c;
+  --color-primary-back: #0f0214; // Slightly darker for better contrast
+  --color-secondary-dark: #2a154d;
+  --color-accent-gradient: linear-gradient(135deg, #a855f7 0%, #6366f1 100%);
+  --color-glass-bg: rgba(24, 3, 32, 0.7);
 }
 
 $bp-mobile: 480px;

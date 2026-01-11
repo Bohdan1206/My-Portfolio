@@ -1,15 +1,36 @@
 @use "../utils/variables" as *;
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: var(--color-glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+
   &-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 110px;
+    height: 80px;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   &-title {
     margin: 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    background: var(--color-accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
   &-list {

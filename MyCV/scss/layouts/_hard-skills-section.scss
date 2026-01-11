@@ -1,6 +1,63 @@
 @use "../utils/variables" as *;
 
 .hard-skills-section {
+  &-content {
+    h2.title {
+      margin-bottom: 30px;
+    }
+  }
+
+  .hard-skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+  }
+
+  .skill-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.3s ease;
+    text-align: center;
+
+    i {
+      font-size: 40px;
+      transition: transform 0.3s ease;
+      filter: drop-shadow(0 0 8px var(--color-primary-dark));
+    }
+
+    span {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.4;
+    }
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.08);
+      transform: translateY(-5px);
+      border-color: var(--color-primary-dark);
+
+      i {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .skills-main-img {
+    display: none;
+
+    @media (min-width: $bp-desktop) {
+      display: block;
+    }
+  }
+
   &-container {
     position: relative;
     display: flex;
