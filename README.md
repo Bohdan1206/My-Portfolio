@@ -21,6 +21,7 @@ I enjoy turning designs into structured, user-friendly web pages and continuousl
 
 Here are some of my projects hosted on **GitHub Pages**:
 
+- [SaltFrame](https://bohdan1206.github.io/My-Portfolio/SaltFrame/)
 - [BeautyZone](https://bohdan1206.github.io/My-Portfolio/BeautyZone/)
 - [GGBand](https://bohdan1206.github.io/My-Portfolio/GGBand/)
 - [Graphic-Designer-CV](https://bohdan1206.github.io/My-Portfolio/Graphic-Designer-CV/)
